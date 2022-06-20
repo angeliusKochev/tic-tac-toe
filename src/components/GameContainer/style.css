@@ -1,0 +1,11 @@
+.gameContainer__title {
+    margin-bottom: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media (min-width: 700px) {
+    .gameContainer__title {
+        font-size: 4rem;
+    }
+}

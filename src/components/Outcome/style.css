@@ -1,0 +1,19 @@
+.outcome {
+    text-align: center;
+}
+
+.outcome__winner {
+    margin-bottom: 1rem;
+}
+
+.outcome__playAgainButton {
+    background-color: #fff;
+    cursor: pointer;
+    border: 2px solid #2f343e;
+}
+
+.outcome__playAgainButton :hover {
+    background-color: #2f343e;
+    color: #fff;
+    border-color: #fff;
+}

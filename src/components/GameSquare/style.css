@@ -1,0 +1,41 @@
+.gameSquare {
+    background-color: #3a434e;
+    color: #80b7ef;
+    margin: 2px;
+    width: 70px;
+    height: 70px;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gameSquare:not(.has-value):hover {
+    background-color: #4d6175;
+    cursor: pointer;
+}
+.gameSquare p {
+    margin: 0px;
+}
+
+button.playAgainBtn {
+    border: 2px solid #81b8ef;
+    background-color: #81b8ef;
+    color: #282d33;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+button.playAgainBtn:hover {
+    background-color: #282d33;
+    color: #81b8ef;
+    cursor: pointer;
+}
+
+@media (min-width: 700px) {
+    .gameSquare {
+        width: 150px;
+        height: 150px;
+        font-size: 130px;
+    }
+}
